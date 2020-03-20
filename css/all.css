@@ -369,9 +369,10 @@ a:focus, a:hover {
 }
 .clients .holder  li{
 	float:left;
-	width:48%;
+	width:31%;
 	margin:0  2% 20px 0;
 }
+
 .holder .partners li{
 	text-align:center;
 }
@@ -383,23 +384,22 @@ a:focus, a:hover {
 	margin-top:10px;
 }
 .holder .partners li.intrum img {
-  height: 42.52px;
+ 
   width: 190px;
 }
 .holder .partners li.inacta img {
- height: 61.98px;
-  width: 180px;
+
+  width: 220px;
 }
 .holder .partners li.sygnum{
 	margin-top:15px;
 }
 .holder .partners li.sygnum img {
- height: 32.46px;
+
   width: 190px;
 }
 .holder .partners li.capital img {
- height: 54.93px;
-  width: 250px;
+  width:350px;
 }
 
 .holder .partners li.cryptoconsult{
@@ -433,10 +433,6 @@ a:focus, a:hover {
 	width:48%;
 }
 
-.right-side .partners li,
-.left-side .partners li{
-	margin:0;
-}
 .right-side .partners,
 .left-side .partners {
 	margin:0 0 19px;
@@ -937,12 +933,12 @@ font-weight: 600;
 	font-weight:normal;
 	color: #111111;
 	font-family: Quicksand;
-	font-size: 36px;
+	font-size: 44px;
 	font-weight: 600;
 	letter-spacing: -0.07px;
-	line-height: 45px;
+	line-height: 56px;
 	text-align: center;
-	margin:0 0 54px;
+	margin:0 0 104px;
 }
 .clients {
 	background:#E9EAF0;
@@ -1348,14 +1344,28 @@ font-weight: 600;
 		padding:80px 80px 40px;
 	}
 	.clients .holder li{
-		float:none;
-		width:100%;
-		margin:0 0 40px;
+		margin-bottom:40px;
+	}
+	.holder .partners li img{
+		width:70% !important;
+	}
+	.holder .partners li.capital img{
+		width:100% !important;
 	}
 }
 @media only screen  and (max-width : 1020px) {
 	.tab-holder .block-tab {
 		padding:0 0px 60px;
+	}
+	.clients .holder li{
+		float:none;
+		width:100%;
+	}
+	.holder .partners li img{
+		width:28% !important;
+	}
+	.holder .partners li.capital img {
+		width:60% !important;
 	}
 	.tab-holder{
 		padding:0;
@@ -1418,6 +1428,7 @@ font-weight: 600;
 	.clients h3{
 		font-size: 28px;
 		line-height: 30px;
+		margin:0 0 54px;
 	}
 	.header-content .list-info h3{margin-right:15px;}
 	.features>li{
@@ -1575,9 +1586,8 @@ font-weight: 600;
 		margin:0 0 60px;
 	}
 	.clients .partners li {
-		width:50% !important;
-		float:left;
-		margin:0 0 40px !important;
+		width:100% !important;
+		margin:0 0 60px !important;
 	}
 	
 	.clients .partners li.capital img{
@@ -1585,7 +1595,7 @@ font-weight: 600;
 		margin-top:-10px;
 	}
 	.holder .partners li img{
-		width:70% !important;
+		width:45% !important;
 		height:auto !important;
 	}
 	.clients .holder .right-side{
